@@ -52,15 +52,6 @@ header {
     height: 100px;
 }
 
-
-nav ul {
-    List-style-type: none;
-}
-
-nav li {
-    display: inline;
-}
-
 nav a:link,
 nav a:visited {
     background-color: brown;
@@ -85,9 +76,6 @@ nav a:hover {
     background-color: black;
 }
 
-.photo-left {
-    float: left;
-}
 
 .photo-left {
     float: left;
@@ -101,15 +89,18 @@ nav a:hover {
 
 header h1 {
     color: rgba(256, 256, 256, 0.8);
-    /*Make it white and transparency to 0.8*/
+
     margin-left: 30px;
     margin-top: 30px;
     font-size: 50px;
-    /*increase font size as its website heading*/
+
 }
 
 header {
-    background-image: url("images/coffee-beans.jpg");
+    background-image: url("images/coffee-beans.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100px;
     margin-bottom: 70px;
     /*So that we get some more space with the background*/
@@ -117,6 +108,7 @@ header {
 
 footer {
     margin: 40px 0;
+
 }
 
 footer nav a:link,
@@ -133,23 +125,37 @@ footer nav a:hover {
     color: black;
 }
 
-td,
-th {
-    border: 1px solid black;
-}
-
 table {
     border-spacing: 0;
-}
-
-table {
     border-collapse: collapse;
 }
 
 td,
 th {
     border: 1px solid black;
+    border: 1px solid black;
     width: 20%;
     text-align: center;
     padding: 5px;
+}
+caption{
+    text-align: center;
+}
+fieldset{
+    margin: 60PX;
+    padding: 40px;
+}
+.lege{
+   padding-right: 60px;
+   margin: auto;
+}
+.ys{
+   margin: 20px;
+}
+.sugar{
+    margin: 20px;
+}
+legend{
+    margin: 20PX;
+    color: brown;
 }
